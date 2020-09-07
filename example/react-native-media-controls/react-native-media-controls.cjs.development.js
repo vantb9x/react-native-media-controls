@@ -42,16 +42,17 @@ var styles = /*#__PURE__*/reactNative.StyleSheet.create({
   playButton: {
     alignItems: "center",
     borderColor: playButtonBorderColor,
-    borderRadius: 3,
+    borderRadius: 35,
     borderWidth: 1.5,
-    height: 50,
+    height: 65,
     justifyContent: "center",
-    width: 50
+    width: 65,
+    opacity: 0.6
   },
   playIcon: {
-    height: 22,
+    height: 27,
     resizeMode: "contain",
-    width: 22
+    width: 27
   },
   progressColumnContainer: {
     flex: 1
@@ -101,7 +102,8 @@ var styles = /*#__PURE__*/reactNative.StyleSheet.create({
   },
   track: {
     borderRadius: 1,
-    height: 5
+    height: 5,
+    opacity: 0.3
   }
 });
 
@@ -211,7 +213,7 @@ var Slider = function Slider(props) {
     thumbStyle: [styles.thumb, customThumbStyle, {
       borderColor: mainColor
     }],
-    minimumTrackTintColor: mainColor
+    minimumTrackTintColor: 'white'
   })), Boolean(onFullScreen) && React__default.createElement(reactNative.TouchableOpacity, {
     style: styles.fullScreenContainer,
     onPress: onFullScreen
