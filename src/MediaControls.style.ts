@@ -34,16 +34,17 @@ export default StyleSheet.create({
   playButton: {
     alignItems: "center",
     borderColor: playButtonBorderColor,
-    borderRadius: 3,
+    borderRadius: 35,
     borderWidth: 1.5,
-    height: 50,
+    height: 65,
     justifyContent: "center",
-    width: 50,
+    width: 65,
+    opacity: 0.6
   },
   playIcon: {
-    height: 22,
+    height: 27,
     resizeMode: "contain",
-    width: 22,
+    width: 27
   },
   progressColumnContainer: {
     flex: 1,
@@ -94,5 +95,6 @@ export default StyleSheet.create({
   track: {
     borderRadius: 1,
     height: 5,
+    opacity: 0.3
   },
 });

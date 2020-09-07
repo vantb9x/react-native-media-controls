@@ -33,6 +33,7 @@ declare const _default: {
         height: number;
         justifyContent: "center";
         width: number;
+        opacity : number;
     };
     playIcon: {
         height: number;
@@ -88,6 +89,7 @@ declare const _default: {
     track: {
         borderRadius: number;
         height: number;
+        opacity : number;
     };
 };
 export default _default;
