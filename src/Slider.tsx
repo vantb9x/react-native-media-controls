@@ -83,7 +83,7 @@ const Slider = (props: Props) => {
             customThumbStyle,
             { borderColor: mainColor },
           ]}
-          minimumTrackTintColor='white'
+          minimumTrackTintColor= {'white'}
         />
       </View>
       {Boolean(onFullScreen) && (
